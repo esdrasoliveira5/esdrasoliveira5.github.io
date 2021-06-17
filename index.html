@@ -4,25 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <Style>
+        body {
+            align-items: center;
+            background-color: rgb(234, 226, 183);
+        }
+        h1 {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 900;
+            color: rgb(247, 127, 0);
+        }
+        h2 {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: rgb(0, 48, 73);
+        }
+        h3 {
+            color: rgb(214, 40, 40);
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .text {
+            color: rgb(0, 48, 73);
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        
+        
+
+
+
+
+
+
+
+
+    </Style>
     <title>Portifolio Web</title>
 </head>
 <body>
-    <H1><strong>Portifolio Web</strong></H1>
+    <H1>Portifolio Web</H1>
     <H2>Esdras de Jesus Moreira de Oliveira</H2>
     <img src="/imgens/perfil.jpg" alt="Foto de Esdras com uma camisa azul" width="200px">
-    <h3><em>Indice</em></h3>
-    <ol>
+    <h3>Indice</h3>
+    <ol class="text">
         <li><a href="#resumo">Resumo</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#outrashabilidades">Outras Habilidades</a></li>
         <li><a href="#redesociais">Redes Sociais</a></li>
         <li><a href="#galeria">Galeria</a></li>
     </ol>
-    <h3 id="resumo"><em>Resumo</em></h3>
-    <p>Natural de Santa Luzia/MG, entrou no bacharelado em Música na UFMG em 2012 se formando em 2017,<br> se mudou para Sarzedo/MG onde trabalhou como professor de trompete no Projeto de Música de Sarzedo de 2016 a 2021 <br> quando iniciou os seus estudos no curso de desenvolvimento web da Trybe, onde está atualmente.
+    <h3 id="resumo">Resumo</h3>
+    <p class="text">Natural de Santa Luzia/MG, entrou no bacharelado em Música na UFMG em 2012 se formando em 2017,<br> se mudou para Sarzedo/MG onde trabalhou como professor de trompete no Projeto de Música de Sarzedo de 2016 a 2021 <br> quando iniciou os seus estudos no curso de desenvolvimento web da Trybe, onde está atualmente.
     </p>
-    <h3 id="habilidades" ><em>Habilidades</em></h3>
-    <ul>
+    <h3 id="habilidades">Habilidades</h3>
+    <ul class="text">
         <li><a href="#tocando">Trompetista</a>  com 15 anos de experiência</li>
         <li>Chefe de naipe e solista por 6 anos</li>
         <li>Experiência em dar aulas para crianças e adultos</li>
@@ -32,22 +68,23 @@
         <li>Desenvoltura para falar em <a href="#casamento">público</a> </li>
         <li>Sabe trabalhar em <a href="#orquestra">grupo</a></li>
     </ul>
-    <h3 id="outrashabilidades"><em>Outras Habilidades</em></h3>
-    <ul>
+    <h3 id="outrashabilidades">Outras Habilidades</h3>
+    <ul class="text">
         <li>Unix</li>
         <li>Bash</li>
         <li>Git & GitHub</li>
         <li>HTML</li>
     </ul>
-    <h3 id="redesociais"><em>Redes Sociais</em></h3>
-    <a href="https://www.facebook.com/esdras.dejesus/" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/esdrasm.oliveira/" target="_blank">Instagram</a>
-    <a href="https://www.linkedin.com/in/esdrasmoliveira" target="_blank">Linkedin</a>
-    <a href="https://github.com/esdrasoliveira5" target="_blanck">GitHub</a>
-    <H3 id="galeria"><em>Galeria</em></H3>
-    <img id="orquestra" src="/imgens/orquestra.jpg" alt="Orquestra do festival de Santa Maria" width="450px">
-    <img id="casamento" src="/imgens/CasamentoCassio.jpg" alt="Tocando Trompete em um casamento" width="450px">
-    <img id="tocando" src="/imgens/Tocando.jpg" alt="Tocando Trompete" width="450px">
-    <img src="/imgens/Show.jpg" alt="Selfie no Show" width="450px">
+    <h3 id="redesociais">Redes Sociais</h3>
+    <a class="text" href="https://www.facebook.com/esdras.dejesus/" target="_blank">Facebook</a>
+    <a class="text" href="https://www.instagram.com/esdrasm.oliveira/" target="_blank">Instagram</a>
+    <a class="text" href="https://www.linkedin.com/in/esdrasmoliveira" target="_blank">Linkedin</a>
+    <a class="text" href="https://github.com/esdrasoliveira5" target="_blanck">GitHub</a>
+    <H3 id="galeria">Galeria</H3>
+    <img id="orquestra" src="/imgens/orquestra.jpg" alt="Orquestra do festival de Santa Maria" height="350px">
+    <img id="casamento" src="/imgens/CasamentoCassio.jpg" alt="Tocando Trompete em um casamento" height="350px">
+    <br>
+    <img id="tocando" src="/imgens/Tocando.jpg" alt="Tocando Trompete" height="350px">
+    <img src="/imgens/Show.jpg" alt="Selfie no Show" height="350px">
 </body>
 </html>
