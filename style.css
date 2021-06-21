@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(234, 226, 183);
+    padding: 10%;
+    border: 10px solid rgb(247, 127, 0);
+}
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    border: 3px solid rgb(252, 191, 73);
+    color: rgb(247, 127, 0);
+}
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(0, 48, 73);
+    text-align: center;
+}
+h3 {
+    color: rgb(214, 40, 40);
+    font-style: italic;
+    font-size: 30px;
+    border: 3px solid rgb(252, 191, 73);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.text {
+    color: rgb(0, 48, 73);
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+span {
+    font-weight: bold;
+}
+a img {
+    width: 30px;
+}
+.perfil {
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: rgb(252, 191, 73);
+}
+.imagecontainer {
+    height: 300px;
+}
+.resumo {
+    text-align: justify;
+}
+ ul li:nth-child(odd) {
+     background-color: rgb(252, 191, 73);
+ }
+ol a:hover {
+    font-weight: bold;
+}
+a {
+    color: rgb(214, 40, 40);
+}
+div img {
+    width: 200px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
