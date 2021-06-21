@@ -1,7 +1,7 @@
 body {
     background-color: rgb(234, 226, 183);
     padding: 10%;
-    border: 10px solid black;
+    border: 10px solid rgb(247, 127, 0);
 }
 h1 {
     font-family: 'Noto Sans JP', sans-serif;
@@ -36,9 +36,6 @@ span {
 a img {
     width: 30px;
 }
-div {
-    border: 2px solid black;
-}
 .perfil {
     float: left;
     height: 280px;
@@ -49,10 +46,25 @@ div {
     height: 300px;
 }
 .resumo {
-    text-align: center;
+    text-align: justify;
 }
  ul li:nth-child(odd) {
-     background-color: aquamarine;
+     background-color: rgb(252, 191, 73);
  }
+ol a:hover {
+    font-weight: bold;
+}
+a {
+    color: rgb(214, 40, 40);
+}
+div img {
+    width: 200px;
+    padding: 5px;
+}
+
+
+
+
+
 
 
