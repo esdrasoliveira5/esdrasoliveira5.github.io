@@ -1,5 +1,24 @@
 body {
-    padding: 10%;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aquamarine;
+    width: 100%;
+    padding: 10px;
+}
+
+.header-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    padding-top: 50px;
 }
 
 a img {
